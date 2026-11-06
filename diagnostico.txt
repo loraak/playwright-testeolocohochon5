@@ -1,0 +1,159 @@
+
+================ INICIO ================
+URL: https://userinyerface.com/ | TITLE: User Inyerface - A worst-practice UI experiment
+
+--- Texto visible (primeros 1200 caracteres) ---
+Hi and welcome to User Inyerface, a challenging exploration of user interactions and design patterns. To play the game, simply fill in the form as fast and accurate as possible. NO Please click HERE to GO to the next page
+
+--- Coincidencias de "n / 4" ---
+[]
+
+--- INPUTS ---
+
+--- LABELS / CHECKBOXES (outerHTML) ---
+
+--- DROPDOWN ---
+[]
+
+--- Elementos con texto clave ---
+[
+ "<a href=\"/game.html\" class=\"start__link\">HERE</a>",
+ "<span class=\"start__highlight\">next page</span>"
+]
+
+[paso] clic en HERE: ok
+
+================ PÁGINA 1 (formulario) ================
+URL: https://userinyerface.com/game.html | TITLE: User Inyerface - A worst-practice UI experiment
+
+--- Texto visible (primeros 1200 caracteres) ---
+This site uses cookies, is that a problem for you? Not really, no Yes 00:00:02 1 2 3 4 1 / 4 @ other I do not accept the Terms & Conditions Next Cancel Reset Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character. How can we help? Help Send to bottom
+
+--- Coincidencias de "n / 4" ---
+["<div class=\"page-indicator\">1 / 4</div>"]
+
+--- INPUTS ---
+{"i":0,"tag":"INPUT","type":"text","id":"","name":"","placeholder":"Choose Password","cls":"input input--blue input--gray","checked":false,"visible":true,"value":"Choose Password"}
+{"i":1,"tag":"INPUT","type":"text","id":"","name":"","placeholder":"Your email","cls":"input input--blue input--gray","checked":false,"visible":true,"value":"Your email"}
+{"i":2,"tag":"INPUT","type":"text","id":"","name":"","placeholder":"Domain","cls":"input input--blue input--gray","checked":false,"visible":true,"value":"Domain"}
+{"i":3,"tag":"INPUT","type":"checkbox","id":"accept-terms-conditions","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":4,"tag":"TEXTAREA","type":"textarea","id":"","name":"","placeholder":"","cls":"help-form__text-area","visible":true,"value":""}
+
+--- LABELS / CHECKBOXES (outerHTML) ---
+<span class="checkbox"><label for="accept-terms-conditions" class="checkbox__label"><input id="accept-terms-conditions" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="accept-terms-conditions" class="checkbox__label"><input id="accept-terms-conditions" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+
+--- DROPDOWN ---
+["<div class=\"dropdown dropdown--gray\"><div class=\"dropdown__header\"><div class=\"dropdown__field\">other</div><div class=\"dropdown__opener\"><span class=\"icon icon-chevron-down\"></span></div></div><div class=\"dropdown__list\"><div class=\"dropdown__list-item selecte","<div class=\"dropdown__header\"><div class=\"dropdown__field\">other</div><div class=\"dropdown__opener\"><span class=\"icon icon-chevron-down\"></span></div></div>","<div class=\"dropdown__field\">other</div>","<div class=\"dropdown__opener\"><span class=\"icon icon-chevron-down\"></span></div>","<div class=\"dropdown__list\"><div class=\"dropdown__list-item selected\">other</div><div class=\"dropdown__list-item\">.org</div><div class=\"dropdown__list-item\">.co.uk</div><div class=\"dropdown__list-item\">.net</div><div class=\"dropdown__list-item\">.gov</div><div ","<div class=\"dropdown__list-item selected\">other</div>","<div class=\"dropdown__list-item\">.org</div>","<div class=\"dropdown__list-item\">.co.uk</div>","<div class=\"dropdown__list-item\">.net</div>","<div class=\"dropdown__list-item\">.gov</div>","<div class=\"dropdown__list-item\">.de</div>","<div class=\"dropdown__list-item\">.fr</div>"]
+
+--- Elementos con texto clave ---
+[
+ "<button name=\"button\" type=\"button\" class=\"button button--solid button--transparent\">Not really, no</button>",
+ "<span class=\"login-form__terms-conditions-underline\">Terms &amp; Conditions</span>",
+ "<a class=\"button--secondary\">Next</a>"
+]
+[paso] cerrar cookies: ok
+[paso] cerrar ayuda (Send to bottom): ERROR locator.click: Timeout 3000ms exceeded. Call log: [2m - waiting for getByText(/send to bottom/i).first()[22m 
+[paso] correo: ok
+[paso] contraseña: ok
+[paso] dominio: ok
+[paso] abrir desplegable: ok
+Opciones del desplegable: ["other",".org",".co.uk",".net",".gov",".de",".fr",".nl",".com",".be",".jpg"]
+[paso] elegir opción: ok
+
+--- Prueba de casillas: estado antes y después de cada clic en .checkbox__box ---
+Cantidad de .checkbox__box: 1
+  .checkbox__box #0: antes=[true] despues=[false]
+[paso] marcar términos (.checkbox__box #0): ok
+[paso] clic en Next: ok
+
+================ DESPUÉS DE NEXT (página 2 esperada) ================
+URL: https://userinyerface.com/game.html | TITLE: User Inyerface - A worst-practice UI experiment
+
+--- Texto visible (primeros 1200 caracteres) ---
+00:00:07 1 2 3 4 2 / 4 This is me To complete your profile, please upload any image. Download image Choose 3 interests Ponies Polo Dough Snails Balls Post-its Faucets Enveloppes Cables Questions Squares Purple Cotton Dry-wall Closets Tires Windows Select all Mullets Cinnamon Unselect all Next Cancel How can we help? Help Send to bottom
+
+--- Coincidencias de "n / 4" ---
+["<div class=\"page-indicator\">2 / 4</div>"]
+
+--- INPUTS ---
+{"i":0,"tag":"INPUT","type":"checkbox","id":"interest_ponies","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":1,"tag":"INPUT","type":"checkbox","id":"interest_polo","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":2,"tag":"INPUT","type":"checkbox","id":"interest_dough","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":3,"tag":"INPUT","type":"checkbox","id":"interest_snails","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":4,"tag":"INPUT","type":"checkbox","id":"interest_balls","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":5,"tag":"INPUT","type":"checkbox","id":"interest_postits","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":6,"tag":"INPUT","type":"checkbox","id":"interest_faucets","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":7,"tag":"INPUT","type":"checkbox","id":"interest_enveloppes","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":8,"tag":"INPUT","type":"checkbox","id":"interest_cables","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":9,"tag":"INPUT","type":"checkbox","id":"interest_questions","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":10,"tag":"INPUT","type":"checkbox","id":"interest_squares","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":11,"tag":"INPUT","type":"checkbox","id":"interest_purple","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":12,"tag":"INPUT","type":"checkbox","id":"interest_cotton","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":13,"tag":"INPUT","type":"checkbox","id":"interest_drywall","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":14,"tag":"INPUT","type":"checkbox","id":"interest_closets","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":15,"tag":"INPUT","type":"checkbox","id":"interest_tires","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":16,"tag":"INPUT","type":"checkbox","id":"interest_windows","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":17,"tag":"INPUT","type":"checkbox","id":"interest_selectall","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":18,"tag":"INPUT","type":"checkbox","id":"interest_mullets","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":19,"tag":"INPUT","type":"checkbox","id":"interest_cinnamon","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":20,"tag":"INPUT","type":"checkbox","id":"interest_unselectall","name":"","placeholder":"","cls":"","checked":true,"visible":false,"value":"on"}
+{"i":21,"tag":"TEXTAREA","type":"textarea","id":"","name":"","placeholder":"","cls":"help-form__text-area","visible":true,"value":""}
+
+--- LABELS / CHECKBOXES (outerHTML) ---
+<span class="checkbox small"><label for="interest_ponies" class="checkbox__label"><input id="interest_ponies" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_ponies" class="checkbox__label"><input id="interest_ponies" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_polo" class="checkbox__label"><input id="interest_polo" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_polo" class="checkbox__label"><input id="interest_polo" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_dough" class="checkbox__label"><input id="interest_dough" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_dough" class="checkbox__label"><input id="interest_dough" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_snails" class="checkbox__label"><input id="interest_snails" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_snails" class="checkbox__label"><input id="interest_snails" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_balls" class="checkbox__label"><input id="interest_balls" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_balls" class="checkbox__label"><input id="interest_balls" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_postits" class="checkbox__label"><input id="interest_postits" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_postits" class="checkbox__label"><input id="interest_postits" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_faucets" class="checkbox__label"><input id="interest_faucets" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_faucets" class="checkbox__label"><input id="interest_faucets" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_enveloppes" class="checkbox__label"><input id="interest_enveloppes" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_enveloppes" class="checkbox__label"><input id="interest_enveloppes" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_cables" class="checkbox__label"><input id="interest_cables" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_cables" class="checkbox__label"><input id="interest_cables" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_questions" class="checkbox__label"><input id="interest_questions" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_questions" class="checkbox__label"><input id="interest_questions" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_squares" class="checkbox__label"><input id="interest_squares" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_squares" class="checkbox__label"><input id="interest_squares" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_purple" class="checkbox__label"><input id="interest_purple" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_purple" class="checkbox__label"><input id="interest_purple" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_cotton" class="checkbox__label"><input id="interest_cotton" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+<label for="interest_cotton" class="checkbox__label"><input id="interest_cotton" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label>
+<span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span>
+<span class="checkbox small"><label for="interest_drywall" class="checkbox__label"><input id="interest_drywall" type="checkbox"> <span class="checkbox__box"><span class="icon icon-check checkbox__check"></span></span></label></span>
+
+--- DROPDOWN ---
+[]
+
+--- Elementos con texto clave ---
+[
+ "<a class=\"avatar-and-interests__upload-button\">upload</a>",
+ "<button name=\"button\" type=\"button\" class=\"align__cell avatar-and-interests__avatar-upload-button button button--solid button--blue\">Download image</button>",
+ "<span>Select all</span>",
+ "<span>Unselect all</span>",
+ "<button name=\"button\" type=\"button\" class=\"button button--stroked button--white button--fluid\">Next</button>"
+]
+
+--- Errores de JS/consola durante el recorrido ---
+[]
